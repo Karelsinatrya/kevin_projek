@@ -1,0 +1,19 @@
+START
+Inisialisasi voteA = 0, voteB = 0, voteC = 0
+
+DO
+    Tampilkan menu kandidat
+    Input pilihan
+
+    SWITCH pilihan
+        CASE 1: voteA = voteA + 1
+        CASE 2: voteB = voteB + 1
+        CASE 3: voteC = voteC + 1
+        DEFAULT: Tampilkan "Pilihan tidak valid"
+    END SWITCH
+
+    Input voting lagi (y/n)
+WHILE jawaban = 'y' atau 'Y'
+
+Tampilkan hasil voting
+END
